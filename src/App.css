@@ -10,7 +10,7 @@
 }
 
 header {
-  background-image: linear-gradient(#45454551, rgba(0, 0, 0, 0.281)) , url('https://images.pexels.com/photos/218863/pexels-photo-218863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: linear-gradient(#38383851, rgba(0, 0, 0, 0.281)) , url('https://images.pexels.com/photos/218863/pexels-photo-218863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   height: 100vh;
   object-fit: cover;
   background-size: cover;
@@ -20,21 +20,40 @@ header {
 }
 
 .hero {
-  background: linear-gradient(#45454551, rgba(0, 0, 0, 0.281));
+  background: linear-gradient(#24242451, rgba(0, 0, 0, 0.281));
   -webkit-box-shadow: -26px 9px 30px -8px rgba(0,0,0,1);
   -moz-box-shadow: -26px 9px 30px -8px rgba(0,0,0,1);
   box-shadow: -26px 9px 30px -8px rgba(0,0,0,0.7);
+}
+
+.hero span {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+  text-shadow: 2px 2px #252525;
+}
+
+.hero p {
+  /* className="w-[50%] text-2xl text-center mb-8" */
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px #252525;
 }
 
 .heading-name {
   font-family: 'Satisfy', cursive;
   color: white;
   font-size: 4.5rem;
-  text-shadow: 2px 2px #494949;
-  margin-top: 1.5rem;
+  text-shadow: 2px 2px #252525;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   width: 75%;
 }
 
 .heading-title {
-  font-size: 4.5rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px #252525;
+  margin-top: 5rem;
 }
