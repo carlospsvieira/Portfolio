@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Righteous', cursive; */
 }
 
 header {
@@ -19,6 +18,16 @@ header {
   align-items: center;
 }
 
+nav a:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: -1px;
+}
+
+nav a:hover:nth-child(1), .github:hover {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
 .hero {
   background: linear-gradient(#24242451, rgba(0, 0, 0, 0.281));
   -webkit-box-shadow: -26px 9px 30px -8px rgba(0,0,0,1);
@@ -26,14 +35,13 @@ header {
   box-shadow: -26px 9px 30px -8px rgba(0,0,0,0.7);
 }
 
-.hero span {
+.hero span, .story-heading {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
   text-shadow: 2px 2px #252525;
 }
 
 .hero p {
-  /* className="w-[50%] text-2xl text-center mb-8" */
   width: 50%;
   font-size: 1.5rem;
   text-align: center;
@@ -48,7 +56,7 @@ header {
   text-shadow: 2px 2px #252525;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
-  width: 75%;
+  width: 70%;
 }
 
 .heading-title {
@@ -56,4 +64,36 @@ header {
   font-size: 5rem;
   text-shadow: 2px 2px #252525;
   margin-top: 5rem;
+}
+
+.story {
+  background: linear-gradient(#0e0d0d51, rgba(0, 0, 0, 0.281)) , #050505;
+  -webkit-box-shadow: -2px 5px 17px 3px rgba(0,0,0,0.84);
+  -moz-box-shadow: -2px 5px 17px 3px rgba(0,0,0,0.84);
+  box-shadow: -2px 5px 17px 3px rgba(0,0,0,0.84);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.story-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border: 1px solid #151515;
+  background-color: #151515;
+}
+
+.story-container span {
+  max-width: 500px;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin: 2rem;
+}
+
+.story-heading {
+  text-align: center;
+  font-size: 3.5rem;
 }

@@ -15,7 +15,7 @@ function Hero() {
             see examples of my work and learn more about my experience and
             skills.
           </p>
-          <a href="history" className="bg-red-500 py-2 px-4">
+          <a href="history" className="bg-red-500 py-2 px-4 text-xl">
             MY STORY
           </a>
         </div>
