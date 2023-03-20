@@ -18,6 +18,10 @@ header {
   align-items: center;
 }
 
+nav a {
+  font-weight: 500;
+}
+
 nav a:hover {
   border-bottom: 2px solid white;
   margin-bottom: -1px;
@@ -35,7 +39,7 @@ nav a:hover:nth-child(1), .github:hover {
   box-shadow: -26px 9px 30px -8px rgba(0,0,0,0.7);
 }
 
-.hero span, .story-heading {
+.hero span, .story-heading, .project-heading {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
   text-shadow: 2px 2px #252525;
@@ -54,8 +58,8 @@ nav a:hover:nth-child(1), .github:hover {
   color: white;
   font-size: 4.5rem;
   text-shadow: 2px 2px #252525;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
   width: 70%;
 }
 
@@ -66,7 +70,7 @@ nav a:hover:nth-child(1), .github:hover {
   margin-top: 5rem;
 }
 
-.story {
+.story, .projects {
   background: linear-gradient(#0e0d0d51, rgba(0, 0, 0, 0.281)) , #050505;
   -webkit-box-shadow: -2px 5px 17px 3px rgba(0,0,0,0.84);
   -moz-box-shadow: -2px 5px 17px 3px rgba(0,0,0,0.84);
@@ -93,7 +97,7 @@ nav a:hover:nth-child(1), .github:hover {
   margin: 2rem;
 }
 
-.story-heading {
+.story-heading, .project-heading {
   text-align: center;
   font-size: 3.5rem;
 }

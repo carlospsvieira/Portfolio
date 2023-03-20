@@ -3,7 +3,7 @@ import { SiLinkedin, SiGithub } from "react-icons/si";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between text-white text-xl py-6 w-[75%] sticky top-0">
+    <nav className="flex justify-between text-white text-xl py-6 w-[75%] fixed z-10">
       <div className="flex items-center gap-8">
         <a href="" className="bg-red-500 py-2 px-4">
           HOME
