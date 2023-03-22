@@ -7,7 +7,7 @@ function Story() {
       id="story"
       className="h-screen flex flex-col items-center bg-zinc-500"
     >
-      <div className="w-[80%] h-screen border-x-[2px] border-zinc-600 story text-white">
+      <div className="w-[80%] h-screen border-x-[2px] border-b-[1px] border-zinc-600 story text-white">
         <h1 className="story-heading">My Story</h1>
         <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true}>
           <div className="story-container">
