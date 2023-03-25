@@ -170,7 +170,6 @@ nav a:hover:nth-child(1), .github:hover {
   }
 
   .heading-name {
-    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -211,5 +210,9 @@ nav a:hover:nth-child(1), .github:hover {
 
   .projects-grid {
     margin-top: 2rem;
+  }
+
+  .socials {
+    justify-content: end;
   }
 }
