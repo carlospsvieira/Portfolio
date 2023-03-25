@@ -8,14 +8,14 @@ function Hero() {
         <div className="flex flex-col items-center text-white gap-4">
           <h2 className="heading-title">WEB DEVELOPER</h2>
           <span>Glad you're here!</span>
-          <p>
+          <p className="introduction">
             Welcome to my portfolio! I am a skilled and dedicated developer with
             a passion for creating visually stunning and functional
             applications. Explore my portfolio, which is one of my projects, to
             see examples of my work and learn more about my experience and
             skills.
           </p>
-          <a href="history" className="bg-red-500 py-2 px-4 text-xl">
+          <a href="#story" className="bg-red-500 py-2 px-4 text-xl">
             MY STORY
           </a>
         </div>

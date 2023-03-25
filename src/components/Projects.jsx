@@ -27,7 +27,7 @@ function Projects() {
     >
       <div className="flex flex-col items-center text-white w-[80%]">
         <h1 className="project-heading">Selected Projects</h1>
-        <div className="flex gap-2 text-3xl mt-4">
+        <div className="flex gap-2 text-3xl mt-4 stacks">
           <SiJavascript />
           <SiReact />
           <SiCss3 />
@@ -40,7 +40,7 @@ function Projects() {
           <SiGit />
         </div>
         <AnimationOnScroll animateIn="animate__zoomIn" animateOnce={true}>
-          <div className="mt-[5rem] grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div className="mt-[5rem] grid grid-cols-1 gap-4 md:grid-cols-2 projects-grid">
             <a
               href="https://carlospsvieira.github.io/guitar-shop/"
               target="_blank"
