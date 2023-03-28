@@ -158,6 +158,15 @@ nav a:hover:nth-child(1), .github:hover {
   display: block;
 }
 
+.send-btn {
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
 @media only screen and (max-width: 1023px) {
   #home {
     height: 60vh;

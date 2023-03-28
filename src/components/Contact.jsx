@@ -47,7 +47,7 @@ function Contact() {
               required
             ></textarea>
             <div>
-              <button type="submit" className="w-full py-3 bg-cyan-700 rounded-md text-white text-lg">Send</button>
+              <button type="submit" className="w-full py-3 bg-cyan-700 rounded-md text-white text-lg send-btn">Send</button>
             </div>
           </div>
         </form>
