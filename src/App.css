@@ -45,6 +45,15 @@ nav a:hover:nth-child(1), .github:hover {
   text-shadow: 2px 2px #252525;
 }
 
+.hero a {
+  transition: 0.3s;
+}
+
+.hero a:hover {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
 .introduction {
   width: 50%;
   font-size: 1.5rem;
@@ -119,14 +128,15 @@ nav a:hover:nth-child(1), .github:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white
+  color: white;
+  text-shadow: 2px 2px #252525;
 }
 
 .project-description h2 {
   font-size: 2rem;
   text-align: center;
   font-weight: 600;
-
+  text-shadow: 2px 2px #252525;
 }
 
 .project-description p {
@@ -136,6 +146,7 @@ nav a:hover:nth-child(1), .github:hover {
 
 .image {
   width: 500px;
+  height: 300px;
   border-radius: 5px;
 }
 
@@ -147,16 +158,17 @@ nav a:hover:nth-child(1), .github:hover {
   display: block;
 }
 
-#contact {
-  background: linear-gradient(#0e0d0d51, rgba(0, 0, 0, 0.281)) , #050505;
-}
-
 @media only screen and (max-width: 1023px) {
   #home {
     height: 60vh;
   }
 
-  .lg-screen-nav, .story-container img, .hero a, .projects-grid h2, .projects-grid p {
+  .lg-screen-nav,
+  .story-container img,
+  .last-image, .hero a,
+  .projects-grid h2,
+  .projects-grid p,
+  .stacks {
     display: none;
   }
 
@@ -169,8 +181,14 @@ nav a:hover:nth-child(1), .github:hover {
     text-align: center;
   }
 
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .heading-name {
     margin-bottom: 1rem;
+    margin-top: 0;
   }
 
   .heading-title {
@@ -179,12 +197,8 @@ nav a:hover:nth-child(1), .github:hover {
   }
 
   .introduction, .story-container span {
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 80%;
-  }
-
-  .introduction {
-    margin: 0;
   }
 
   .story-container img {
@@ -214,5 +228,9 @@ nav a:hover:nth-child(1), .github:hover {
 
   .socials {
     justify-content: end;
+  }
+
+  .image {
+    height: 200px;
   }
 }

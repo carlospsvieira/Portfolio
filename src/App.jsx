@@ -1,15 +1,14 @@
-import './App.css'
-import Contact from './components/Contact'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Projects from './components/Projects'
-import Story from './components/Story'
+import "./App.css";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Story from "./components/Story";
 
 function App() {
-
   return (
     <div>
-      <header id='home'>
+      <header id="home">
         <Navbar />
         <Hero />
       </header>
@@ -19,7 +18,7 @@ function App() {
         <Contact />
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

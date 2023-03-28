@@ -9,13 +9,14 @@ function Hero() {
           <h2 className="heading-title">WEB DEVELOPER</h2>
           <span>Glad you're here!</span>
           <p className="introduction">
-            Welcome to my portfolio! I am a skilled and dedicated developer with
+            Welcome to my portfolio! I'm a skilled and dedicated developer with
             a passion for creating visually stunning and functional
-            applications. Explore my portfolio, which is one of my projects, to
-            see examples of my work and learn more about my experience and
-            skills.
+            applications. I'm ready to bring my drive to a team that values
+            innovation and problem-solving. Explore my portfolio, which is one
+            of my projects, to see examples of my work and learn more about my
+            experience and skills.
           </p>
-          <a href="#story" className="bg-red-500 py-2 px-4 text-xl">
+          <a href="#story" className="bg-red-600 py-2 px-4 text-xl">
             MY STORY
           </a>
         </div>

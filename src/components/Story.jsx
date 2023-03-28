@@ -18,7 +18,7 @@ function Story() {
             />
             <span>
               Moved from Brazil to Canada and worked in the telecom
-              industry with mobile and home network sales, met some of the nicest people
+              industry with mobile and home network sales, met some of the nicest people,
               and technology was always around.
             </span>
           </div>

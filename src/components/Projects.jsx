@@ -1,8 +1,8 @@
 import React from "react";
 import guitarsThumb from "../assets/guitars-thumb.png";
-import medInfoThumb from "../assets/medinfo-thumb.png";
 import coffeeThumb from "../assets/coffee-thumb.png";
 import EverBloggery from "../assets/everbloggery-thumb.png";
+import management from "../assets/storage-sales-management.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import {
   SiJavascript,
@@ -61,19 +61,19 @@ function Projects() {
                 </div>
               </div>
             </a>
-            <a href="https://carlospsvieira.github.io/medinfo/" target="_blank">
+            <a href="https://github.com/carlospsvieira/storage-and-sales-management" target="_blank">
               <div className="project-container">
-                <img src={medInfoThumb} alt="" className="image" />
+                <img src={management} alt="" className="image" />
                 <div className="project-description">
-                  <h2>MedInfo</h2>
+                  <h2>Storage & Sales Management</h2>
                   <p>
-                    This app brings medicine and hygiene products information
-                    from a public API.
+                    Express.js backend that manages products in storage and
+                    sales connected with a SQL database inside a Docker network.
                   </p>
                   <div className="flex justify-center text-xl gap-1 mt-2">
-                    <SiReact />
-                    <SiCss3 />
-                    <SiTailwindcss />
+                    <SiExpress />
+                    <SiMysql />
+                    <SiDocker />
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ function Projects() {
             </a>
             <a href="https://everbloggery.vercel.app/" target="_blank">
               <div className="project-container">
-                <img src={EverBloggery} alt="" className="image" />
+                <img src={EverBloggery} alt="" className="image last-image" />
                 <div className="project-description">
                   <h2>EverBloggery</h2>
                   <p>
