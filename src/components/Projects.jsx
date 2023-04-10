@@ -17,6 +17,7 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiNodedotjs,
+  SiPhp,
 } from "react-icons/si";
 
 function Projects() {
@@ -38,6 +39,7 @@ function Projects() {
           <SiMysql />
           <SiDocker />
           <SiGit />
+          <SiPhp size={40}/>
         </div>
         <AnimationOnScroll animateIn="animate__zoomIn" animateOnce={true}>
           <div className="mt-[5rem] grid grid-cols-1 gap-4 md:grid-cols-2 projects-grid">
