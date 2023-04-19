@@ -18,6 +18,7 @@ import {
   SiFirebase,
   SiNodedotjs,
   SiPhp,
+  SiTypescript,
 } from "react-icons/si";
 
 function Projects() {
@@ -30,6 +31,7 @@ function Projects() {
         <h1 className="project-heading">Selected Projects</h1>
         <div className="flex gap-2 text-3xl mt-4 stacks">
           <SiJavascript />
+          <SiTypescript />
           <SiReact />
           <SiCss3 />
           <SiHtml5 />
